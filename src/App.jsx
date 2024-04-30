@@ -16,7 +16,7 @@ function App() {
         </p>
         <h4>Pull The Plug And Start Saving</h4>
         <p>
-        <img src='residential_home.jpg'/>
+        <img src='home.jpg'/>
           The increasing cost of energy makes a significant impact on homeowners because it affects them financially. The usual process to switch to solar power includes a sizeable upfront investment that very few homeowners can make. The typical process for switching to solar power involves purchasing the panels and then paying for the installation. Although this is a step in the right direction, some property owners cannot afford the number of panels to completely replace paying the power company for a portion of their power. The most impactful way to go solar requires that you generate enough solar energy to stop paying the power company and make a lower monthly payment towards your panels.
           </p>
         <p>
