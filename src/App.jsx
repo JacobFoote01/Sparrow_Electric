@@ -4,6 +4,7 @@ import LowerHeader from './LowerHeader'
 import Content from './content'
 import TopFooter from './TopFooter'
 import home from './assets/home.jpg'
+import './styles.scss'
 
 function App() {
   
