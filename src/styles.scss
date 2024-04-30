@@ -2,6 +2,7 @@
 
 body {
  color:rgb(51, 51, 51);
+ background-color: #e2e3e2;
 }
 
 Title {
@@ -12,14 +13,44 @@ White {
     color: #ffffff;
 }
 
-Background {
-    color: #e2e3e2;
-}
-
 Green {
     color: #21ba9e;
 }
 
 Light_Green {
     color: #7bcbbb;
+}
+
+*Button{ 
+    background-color: #21ba9e;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+*a{
+    color: rgb(51, 51, 51);
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#white_header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+.leftSide{
+    float: inline-start;
+}
+
+.rightSide{
+    float: inline-end;
+}
+
+.lowerNav{
+    margin-bottom: 125px;
+    background-image: url('../Icons-Images/home.jpg');
+    background-size: cover;
+    background-position: center;
 }
