@@ -9,32 +9,69 @@
 
 // Desktop View
 h1 {
-font-size: 56;
+font-size: 56px;
 }
 
 h2 {
-font-size: 48;
+font-size: 48px;
 }
 
 h3 {
-font-size: 32;
+font-size: 32px;
 }
 
 h4 {
-    font-size: 24;
+    font-size: 24px;
 }
 
 h5 {
-    font-size: 18;
+    font-size: 18px;
+}
+
+Body {
+ font-size: 18px;
+}
+
+Caption {
+    font-size: 14px;
+}
+
+Button {
+    font-size: 18px;
+}
+
+Text Link {
+font-size: 24px;
 }
 
 // Mobile View
 @media (max-width: variables.$breakpoint-lg) {
  h1 {
-    font-size: 2rem;
+    font-size: 48px;
  }
  h2 {
-    font-size: 1.5rem;
+    font-size: 40px;
+ }
+ h3 {
+    font-size: 26px;
+ }
+ h4 {
+    font-size: 23px;
+ }
+ h5 {
+    font-size: 20px;
+ }
+ Body {
+    font-size: 18px;
+ }
+ Caption {
+    font-size: 16px;
+ }
+ Button {
+    font-size: 18px;
+ }
+ Text Link {
+    font-size: 24px;
  }
 }
 

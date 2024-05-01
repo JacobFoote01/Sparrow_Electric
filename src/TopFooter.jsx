@@ -1,7 +1,8 @@
+import './styles.scss'
 
 const TopFooter = () => {
     return(
-        <>
+        <div className="TopFooter">
         <h2>
             Go Solar Today
         </h2>
@@ -11,7 +12,7 @@ const TopFooter = () => {
         <button>
             Let's Work Together
         </button>
-        </>
+        </div>
     )
 }
 

@@ -28,29 +28,39 @@ Light_Green {
 }
 
 *a{
-    color: rgb(51, 51, 51);
-    padding-right: 10px;
+    padding-right: 25px;
     text-decoration: none;
 }
 
-#white_header{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
-    margin-top: 0px;
+.white_header{
+    // display: inline-flex;
 }
 
-.leftSide{
-    float: inline-start;
+.leftSide{ 
+    display: inline;
 }
 
 .rightSide{
-    float: inline-end;
+    display: inline;
 }
 
 .lowerNav{
-    margin-bottom: 125px;
-    background-image: url('../Icons-Images/home.jpg');
+    margin-top: 10px;
+    background-image: url('public/Icons - Images/img-hero-banner.jpg');
     background-size: cover;
     background-position: center;
+    height: 425px;
+    width:100vw;
+    color: #ffffff;
+    filter:brightness(.95)
+}
+
+.logo{
+    padding: 15px;
+}
+
+.TopFooter {
+    background-image: url('public/Icons - Images/img-final-cta-background.jpg');
+    color: #ffffff;
+    padding: 25px;
 }
