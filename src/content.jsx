@@ -12,6 +12,7 @@ const Content = () => {
             <a href="/">Home / Who We Help</a>
             <h2>We Can Help You Make The Switch To Solar Power</h2>
             <p>Solar power provides one of the best ways to go green if you want a reliable alternative for power. Sparrow Electric believes that solar power should be affordable and attainable by every homeowner. Using solar energy to power your home is a responsible action that should be rewarded and encouraged. That’s why we do everything to help people obtain financing, so they qualify to have residential solar panels installed on their homes.</p>
+            <img className="House" src="/Icons - Images/home.jpg"/>
             <h4>Pull The Plug And Start Saving</h4>
             <p>The increasing cost of energy makes a significant impact on homeowners because it affects them financially. The usual process to switch to solar power includes a sizeable upfront investment that very few homeowners can make. The typical process for switching to solar power involves purchasing the panels and then paying for the installation. Although this is a step in the right direction, some property owners cannot afford the number of panels to completely replace paying the power company for a portion of their power. The most impactful way to go solar requires that you generate enough solar energy to stop paying the power company and make a lower monthly payment towards your panels.</p>
             {show && (

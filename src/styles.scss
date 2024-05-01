@@ -22,31 +22,66 @@ Light_Green {
 }
 
 *Button{ 
-    background-color: #21ba9e;
-    border-radius: 10px;
-    padding: 7px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 *a{
-    padding-right: 25px;
+    padding: 10px;
     text-decoration: none;
 }
 
 .white_header{
-    // display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.leftSide{ 
-    display: inline;
+.leftSide, .rightSide{ 
+    display:flex;
+    align-items: center;
 }
 
-.rightSide{
-    display: inline;
+.leftSide > div {
+    display: flex; /* Make the inner divs flex containers */
+    align-items: center; /* Align items vertically */
+    padding-left: 30px;
+}
+
+.rightSide > div {
+    display: flex; /* Make the inner divs flex containers */
+    align-items: center; /* Align items vertically */
+}
+
+.leftSide img,
+.rightSide img {
+    margin-right: 5px;
+}
+
+.quoteBtn{
+    align-items: center;
+    color: #ffffff;
+    background-color: rgb(51, 51, 51);
+}
+
+.popup{
+    display: flex;
+    background-color: #e2e3e2;
+    align-items: center;
+    max-width: 75vw;
+    border-radius: 35px;
+    color:rgb(51, 51, 51);
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 .lowerNav{
-    margin-top: 10px;
-    background-image: url('public/Icons - Images/img-hero-banner.jpg');
+    background-image: url('/Icons - Images/img-hero-banner.jpg');
     background-size: cover;
     background-position: center;
     height: 425px;
@@ -60,7 +95,13 @@ Light_Green {
 }
 
 .TopFooter {
-    background-image: url('public/Icons - Images/img-final-cta-background.jpg');
+    background-image: url('/Icons - Images/img-final-cta-background.jpg');
     color: #ffffff;
     padding: 25px;
+}
+.House{
+    display: flex;
+    float: inline-start;
+    padding: 10px;
+    max-width: 450px;
 }
