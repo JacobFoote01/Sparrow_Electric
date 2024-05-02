@@ -31,7 +31,7 @@ const Content = () => {
                     <p>Homeowners who prefer to own their solar panels typically opt for financing. This makes it so homeowners can switch to solar for no money down and make monthly payments on their system that are less than their power bill. Property owners begin saving on their monthly expenditures immediately because they eliminate their energy bill, plus the money they would have been throwing away at the power company is now being put towards owning their solar system. Solar power financing with Sparrow Electric allows homeowners to get the most value from their residential solar system. We designed our financing for homeowners looking to reap long-term savings rather than short-term cash flow.</p>
                     <span>
                     <p>Fortunately, Sparrow Electric can help eliminate that upfront investment through our exceptional financing program. We can help you get the financing you need to purchase and install your home solar system. Our team works hand-in-hand with those who own their home and are seeking alternatives to using fossil fuel and need help obtaining adequate financing, no matter their credit score. Because the need for renewable sources of energy and eco-friendly practices increases, we help you find an affordable solution that fits your lifestyle and saves you money instantly. As your solar experts, we strive to make it easy for homeowners to adopt clean, renewable energy without significant investment or up-front costs.</p>
-                        
+                    
                     <img src="/Icons - Images/img-people-working-on-solar.jpg"/>
                     </span>
                     <h4>You Can Take Advantage Of Our Solar Process</h4>
