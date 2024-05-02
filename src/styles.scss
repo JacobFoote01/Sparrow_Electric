@@ -1,107 +1,201 @@
-@use './styles/variables';
+@use "./styles/variables";
 
 body {
- color:rgb(51, 51, 51);
- background-color: #e2e3e2;
+	color: rgb(51, 51, 51);
+	background-color: #e2e3e2;
 }
 
 Title {
-color: rgb(04, 05, 03);
+	color: rgb(04, 05, 03);
 }
 
 White {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 Green {
-    color: #21ba9e;
+	color: #21ba9e;
 }
 
 Light_Green {
-    color: #7bcbbb;
+	color: #7bcbbb;
 }
 
-*Button{ 
-    border-radius: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-*a{
-    padding: 10px;
+a {
+    color: variables.$title-color;
     text-decoration: none;
 }
 
-.white_header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+*Button {
+	border-radius: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-.leftSide, .rightSide{ 
-    display:flex;
-    align-items: center;
+
+.white_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: .5rem 5rem;
+}
+
+.leftSide,
+.rightSide {
+	display: flex;
+	align-items: center;
+    gap: 3rem;
 }
 
 .leftSide > div {
-    display: flex; /* Make the inner divs flex containers */
-    align-items: center; /* Align items vertically */
-    padding-left: 30px;
+	display: flex; /* Make the inner divs flex containers */
+	align-items: center; /* Align items vertically */
+	// padding-left: 30px;
 }
 
 .rightSide > div {
-    display: flex; /* Make the inner divs flex containers */
-    align-items: center; /* Align items vertically */
+	display: flex; /* Make the inner divs flex containers */
+	align-items: center; /* Align items vertically */
 }
 
 .leftSide img,
 .rightSide img {
-    margin-right: 5px;
+	// margin-right: 5px;
 }
 
-.quoteBtn{
-    align-items: center;
-    color: #ffffff;
-    background-color: rgb(51, 51, 51);
-}
-
-.popup{
+.quoteBtn {
     display: flex;
-    background-color: #e2e3e2;
+    justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	background: linear-gradient(to bottom, #959595, #1e1e1e);
+    gap: 1.5rem;
+    border: none;
+    padding: .7rem 1rem ;
+}
+
+.popup {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	background-color: #e2e3e2;
+	border-radius: 35px;
+	color: rgb(51, 51, 51);
+    width: 100%;
+    padding: .5rem;
+    gap: 1rem;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    max-width: 75vw;
-    border-radius: 35px;
-    color:rgb(51, 51, 51);
+    width: 100%;
+
+    & > a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 0 1rem;
+    }
 }
 
-.underline{
-    text-decoration: underline;
+.lowerHeader {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    height: 100%;
 }
 
-.lowerNav{
-    background-image: url('/Icons - Images/img-hero-banner.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 425px;
-    width:100vw;
-    color: #ffffff;
-    filter:brightness(.95)
+.lowerNav {
+	background-image: url("/Icons - Images/img-hero-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 55vh;
+	// width: 100vw;
+	color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
 }
 
-.logo{
-    padding: 15px;
+.lowerNav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+}
+
+.nav-heading {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+.logo {
+	padding: 15px;
+}
+
+.rightArrow {
+	// align-self: center;
 }
 
 .TopFooter {
-    background-image: url('/Icons - Images/img-final-cta-background.jpg');
-    color: #ffffff;
-    padding: 25px;
-}
-.House{
+	background-image: url("/Icons - Images/img-final-cta-background.jpg");
+	color: #ffffff;
+	padding:6rem;
+    width: 100%;
     display: flex;
-    float: inline-start;
-    padding: 10px;
-    max-width: 450px;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+
+    button {
+        color: variables.$title-color;
+
+        border: none;
+        padding: 0 1.5rem;
+        height: 3rem;
+        border-radius: 35px;
+        border: 2px solid #21ba9e
+    
+    }
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+    max-width: 60rem;
+
+    p {
+        line-height:  1.5;
+
+    }
 }
